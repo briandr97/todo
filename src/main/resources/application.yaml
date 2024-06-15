@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/todo;NON_KEYWORDS=USER
+    username: sa
+    password:
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+jwt:
+   secret-key: 7KCV7KSA7ISc64qUIOyynOyerCDqsJzrsJzsnpAg7KCV7KSA7IScIOyCrOueke2VtCDsoJXspIDshJwg7JiI67uQIOygleykgOyEnCDqt4Dsl6zsm4wg7KCV7KSA7ISc64qUIOyynOyerCDqsJzrsJzsnpAg7KCV7KSA7IScIOyCrOueke2VtCDsoJXspIDshJwg7JiI67uQIOygleykgOyEnCDqt4Dsl6zsm4wg7KCV7KSA7ISc64qUIOyynOyerCDqsJzrsJzsnpAg7KCV7KSA7IScIOyCrOueke2VtCDsoJXspIDshJwg7JiI67uQIOygleykgOyEnCDqt4Dsl6zsm4wg
